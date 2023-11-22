@@ -1,0 +1,33 @@
+.newsletter-container {
+    margin-bottom:2rem;
+}
+.newsletter-form {
+   width:100%;
+}
+.newsletter-header {
+    margin-bottom:2rem;
+}
+.newsletter-subheader {
+    width:50%;
+    margin: 0 auto;
+    margin-bottom:2rem;
+}
+.newsletter-input {
+    background-color: transparent;
+    border:none;
+    border-bottom:1px solid black;
+    padding:0.5rem 0.5rem;
+    width:20rem;
+
+}
+.newsletter-input:focus {
+    outline: none;
+}
+.newsletter-button {
+    /* border:none; */
+    background-color: var(--primary-color);
+    color:white;
+    /* padding:0.5rem 1rem; */
+    border-radius: 2px;
+    cursor: pointer;
+}

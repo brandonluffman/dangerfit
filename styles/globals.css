@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+@import url(https://db.onlinewebfonts.com/c/2aea0ac500c896188f9ad191c231029c?family=Orpheus+Pro);
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+@font-face {
+  font-family: 'Neue Haas Display';
+  src: url('/Users/brandonluffman/Downloads/dangerfit/public/NeueHaasDisplayMediu.ttf.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html,
 body {
   padding: 0;
@@ -15,7 +26,7 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -23,4 +34,24 @@ a {
     color: white;
     background: black;
   }
+} */
+
+
+:root {
+  --primary-color: #008037; /* Primary color */
+  --secondary-color: rgb(0,128,53); /* Secondary color */
+  --accent-color: #30d5c8; /* Accent color */
+  --text-color: #333; /* Default text color */
+  --background-color: #fff; /* Default background color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Black Ops One';
+  /* color: var(--primary-color); */
+
+}
+
+/* Apply font family to all paragraphs */
+p, a, li {
+  font-family: 'Neue Haas Display';
 }

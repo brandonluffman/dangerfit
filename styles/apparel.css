@@ -1,0 +1,244 @@
+.index-shopping-container {
+    /* background: url('/pattern.png'); */
+    padding-top:2rem;
+}
+.index-shopping {
+    /* height:100vh; */
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding:6rem 2rem;
+    gap:100px;
+    /* background-color: rgba(255, 255, 255, .05);
+    backdrop-filter: blur(10px); */
+    /* background-color: rgb(50, 50, 50); */
+
+}
+.index-shop-item {
+  border:5px solid rgb(0, 0, 0);
+  height:500px;
+  width:400px;
+  /* padding:5rem 0rem; */
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  /* margin:0rem 4rem; */
+  box-shadow: inset 1px 4px 55px rgba(0, 0, 0, 1);
+  background-color: rgb(10, 10, 10);
+
+position: relative;
+margin: 0 auto;
+   /*  backdrop-filter: blur(10px); */
+   overflow: hidden;
+   border-radius: 20px;
+   border:5px solid rgb(30, 30, 30);
+   transition: 0.2s ease all;
+}
+.index-shop-item:hover {
+/* background-color: rgb(20, 20, 20); */
+border:5px solid rgb(30, 30, 30);
+  /* box-shadow: inset 1px 4px 150px rgba(255, 255, 255, 0.1); */
+  background-color: rgb(20, 20, 20);
+
+cursor: pointer;
+}
+
+.my-tilt {
+  height:100%;
+  width:100%;
+  background-color: transparent !important;
+  border:none !important;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.index-glass {
+  width:100%;
+  height:100%;
+  /* From https://css.glass */
+  display:flex;
+  align-items:center;
+  justify-content:center;
+background: rgba(255, 255, 255, 0.07);
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1px);
+-webkit-backdrop-filter: blur(1px);
+border: 1px solid rgba(255, 255, 255, 0.05);
+}
+/* styles/HorizontalAndVerticalLines.css */
+.lines-container {
+    position: relative;
+    width: 100%;
+    height: 100%; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    /* box-shadow: inset 1px 1px 25px rgba(255,255,255,0.2); */
+  }
+
+  .horizontal-line {
+    width: 320px;
+    height: 2px;
+  }
+  
+  /* .horizontal-line1 {
+    top: 42px;
+    background-color: white !important;
+  } */
+  
+  .horizontal-line2 {
+    top: 540px; /* Adjust the top position as needed */
+  }
+  
+  /* Vertical Lines */
+  .vertical-line {
+    width: 2px;
+    height: 400px;
+  }
+  
+  .vertical-line1 {
+    left: 40px; /* Adjust the left position as needed */
+  }
+  
+  .vertical-line2 {
+    left:428px; /* Adjust the left position as needed */
+  }
+
+  /* .line1, .line2, .line3, .line4, .vertical-line {
+    border-bottom: 2px solid rgb(0, 0, 0) !important;
+  }
+
+  .vertical-line, .horizontal-line, .line {
+    background-color: rgb(0, 0, 0) !important;
+  } */
+/* 
+  .horizontal-line1 {
+    top: 50px; 
+    background-color: rgb(10, 10, 10) !important;
+  }
+
+  .vertical-line1 ,.vertical-line2 {
+    background-color: rgb(7, 7, 7) !important;
+  }
+  */
+
+  .line1 {
+    width: 90px;
+    height: 20px;
+    border-bottom: 1px solid rgb(51, 51, 51);
+    -webkit-transform: translateY(-20px) translateX(5px) rotate(31deg);
+    position: absolute;
+    top: 22px;
+    left:-11px;
+  }
+  .line2 {
+    width: 95px;
+    height: 20px;
+    border-bottom: 1px solid rgb(51, 51, 51);
+    -webkit-transform: translateY(-20px) translateX(5px) rotate(150deg);
+    position: absolute;
+    top: 37px;
+    left:384px;
+
+  }
+  .line3 {
+    width: 95px;
+    height: 20px;
+    border-bottom: 1px solid rgb(51, 51, 51);
+    -webkit-transform: translateY(-20px) translateX(5px) rotate(150deg);
+    position: absolute;
+    top: 582px;
+    left:-16px;
+  }
+  .line4 {
+    width: 90px;
+    height: 20px;
+    border-bottom: 1px solid rgb(51, 51, 51);
+    -webkit-transform: translateY(-20px) translateX(5px) rotate(32deg);
+    position: absolute;
+    top: 566px;
+    left:383px;
+  }
+  .ovular-shape {
+    width: 100px;
+    height: 20px; /* Adjust the height as needed */
+    background-color: #222222;
+    border-radius: 50%; /* Create a circle */
+    transform: skewX(180deg); /* Adjust the angle as needed */
+    margin: 0px auto;
+    position: absolute;
+    top:11px;
+    border:1px solid rgb(25, 25, 25);
+    /* box-shadow: 0px 35px 90px rgba(255,255,255,1); */
+    z-index:99999;
+}
+.ovular-light {
+    width: 82px;
+    height: 13px; /* Adjust the height as needed */
+    background-color: rgba(239, 241, 180, 0.481);
+    border-radius: 50%; /* Create a circle */
+    transform: skewX(180deg); /* Adjust the angle as needed */
+    margin: 0px auto;
+    position: absolute;
+    top:14px;
+    /* border:5px solid rgb(0, 0, 0); */
+    z-index:9999999;
+    /* opacity: 0; */
+    box-shadow: 0px 0px 0px rgb(235, 232, 175);
+    transition: 0.2s ease all;
+}
+  .line {
+    position: absolute;
+    background-color: #2b2b2b; /* Line color */
+  }
+
+
+  .index-shop-shirt-img {
+    width:400px;
+    position: absolute;
+    z-index: 999;
+    margin-bottom:2rem;
+    margin-top:2rem;
+    /* box-shadow: 1px 3px 5px rgb(255, 255, 255); */
+  }
+  .index-shop-item:hover .ovular-light {
+    background-color: white !important;
+    box-shadow: 0px 15px 40px rgba(255,255,255,1);
+
+  }
+ .product-description-div {
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    width:100%;
+    bottom:0px;
+    font-size:2rem;
+    margin:0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow:1px 4px 10px rgba(255,255,255,0.4);
+    padding:2rem 0rem;
+    z-index:9999999;
+    transform:translateY(150px);
+    transition: 0.2s ease all;
+    color:white;
+  }
+
+  .index-shop-shirt-img:hover ~ .product-description-div {
+    z-index:9999999;
+    transform:translateY(0px);
+
+
+  }
+
+  .product-description-div > h3 , .product-description-div > h6 {
+    margin: 1rem;
+  }

@@ -1,0 +1,319 @@
+.btn {
+    padding:1rem 2rem;
+    border-radius: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.15vw;
+    text-transform: uppercase;
+    background-color: none;
+    border:none;
+}
+.btn-primary {
+    background-color: var(--primary-color);
+    color:white;
+    cursor: pointer;
+    transition: 0.2s ease all;
+    border:1px solid var(--primary-color);
+    padding:0.5rem 1rem;
+}
+.btn-primary:hover {
+    background-color: white;
+    color: var(--primary-color);
+    border:1px solid var(--primary-color);
+}
+.btn-black {
+    background-color: black;
+    color:var(--primary-color);
+    cursor: pointer;
+    /* border:3px solid white; */
+    box-shadow: 1px 1px 6px rgba(255, 255, 255, 0.2);
+    transition: 0.3s ease all;
+}
+
+.btn-black:hover {
+    box-shadow: 1px 3px 12px rgba(255, 255, 255, 0.6);
+
+}
+.green-font {
+    color:var(--primary-color);
+}
+
+.center-text {
+    text-align: center;
+}
+.index-container {
+    padding-top:100px;
+    padding-bottom: 100px;
+    /* height:100vh; */
+    text-align: center;
+    height: 700px;
+}
+
+.videoContainer {
+    position: absolute; /* or absolute */
+    top: -21px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1; /* Keep the video behind other content */
+  }
+  
+  .video {
+    /* Ensure the video covers the entire container */
+    width: 100vw;
+    height:auto;
+    object-fit: cover; /* This will cover the entire container and will be cut off if needed */
+  }
+.index-header {
+    color:white;
+    font-weight: 700;
+    font-size: 6rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Black Ops One';
+    margin:0;
+    margin-bottom: 4rem;
+}
+
+.index-about-header {
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    padding:2rem 0rem;
+    color: var(--primary-color);
+    border-radius:20px;
+}
+.index-stars {
+    margin: auto;
+    margin-top:5rem;
+}
+.index-star {
+    color: var(--primary-color);
+    font-size: 4rem;
+    margin-bottom: 0rem;
+}
+
+
+
+
+.index-about-subheader {
+    color:black;
+    font-size: 2rem;
+    width:60%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.index-about-container {
+    /* background-image: url('/about-landscape.jpeg'); */
+    /* height:100vh; */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
+    padding:2rem;
+    height:auto;
+    overflow-x: hidden;
+}
+.index-about-p-container {
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    overflow: hidden;
+    align-items: center;
+    padding:0rem 7rem;
+    gap:10px;
+
+}
+.index-about-p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    /* padding:6rem 0rem;
+    width: 50%; */
+    text-align: left;
+    font-family: 'Black Ops One';
+    color:rgb(20, 20, 20);
+    border:1px solid rgb(240, 240, 240);
+    height:100%;
+    align-items: center;
+    padding:2rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* 
+.index-about-p:nth-of-type(even) {
+    text-align: right;
+} */
+.index-about-main-img {
+    width:30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    padding:0.5rem;
+    border:7px solid black;
+}
+.index-about-img-div {
+   min-height: 500px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.index-about-img {
+    /* width:50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    margin:0rem auto;
+    border-radius: 40px;
+    text-align: center;
+    height:300px; */
+    width:70%;
+    border-radius: 20px;
+
+}
+.verified-icon {
+    font-size: 3rem;
+    text-align: left;
+    display: flex;
+}
+
+.group-img {
+    width: 300px;
+}
+.index-about-img-container {
+    position: relative;
+    margin:6rem 0rem;
+
+}
+
+.last-item {
+    grid-column: span 2;
+    text-align: center !important;
+    color: var(--primary-color);
+    background-color: black;
+    border-radius: 20px;
+    padding:6rem 2rem;
+    /* height:200px; */
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Black Ops One';
+    margin:2rem;
+}
+
+.last-item-btn {
+    border:none;
+    box-shadow: 1px 1px 8px rgba(255,255,255,0.2);
+    transition:0.2s ease all;
+    margin-top:2rem;
+}
+
+.about-p-grey {
+    font-size: 3rem;
+    font-weight: 700;
+    color:rgb(200,200,200);
+    text-transform: uppercase;
+    font-family: 'Black Ops One';
+    text-align: left;
+
+}
+
+.white-img {
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.2);
+    padding:2rem;
+}
+
+.last-item-btn:hover {
+    box-shadow: 1px 1px 12px rgba(255,255,255,0.4);
+
+}
+
+.last-item-p {
+    font-family: 'Black Ops One';
+    padding: 0;
+    border:none;
+    font-size: 2rem;
+    color: white;
+
+}
+.last-item-btn {
+
+}
+.arrow {
+    /* position: absolute; */
+}
+
+.left-arrow {
+    left:200px;
+    bottom:120px;
+    position: absolute;
+}
+
+.left-arrow-text {
+    left:100px;
+    bottom:250px;
+    font-size: 3rem;
+
+    position: absolute;
+}
+.left-arrow-subtext {
+    position: absolute;
+    left:100px;
+    bottom:230px;
+    font-size: 1rem;
+}
+
+.right-arrow {
+    /* transform: rotateY(90deg); */
+    right: 200px;
+    transform: scaleX(-1); /* Flip the image horizontally */
+    bottom:100px;
+    position: absolute;
+}
+
+.right-arrow-text {
+    right:10px;
+    bottom:250px;
+    font-size: 3rem;
+    position: absolute;
+}
+.right-arrow-subtext {
+    position: absolute;
+    right:10px;
+    bottom:230px;
+    font-size: 1rem;
+}
+
+.learn-more-btn-monk {
+    position: absolute;
+    top:190px;
+    left:100px;
+    background-image: url('/monk.jpeg');
+    border-radius: 50%;
+    width:50px;
+    height: 50px;
+    background-position: center top 245px;
+    background-size: 400%;
+}
+
+.learn-more-btn-james {
+    position: absolute;
+    top:190px;
+    right:0px;
+    background-image: url('/jardine.jpg');
+    border-radius: 50%;
+    width:50px;
+    height: 50px;
+    background-position: center top 120px;
+    background-size: 200%;
+    transition: 0.2s ease all;
+
+}
+
+.learn-more-btn:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+}

@@ -1,0 +1,92 @@
+.affiliate-container {
+    padding:0rem 2rem;
+    padding-top:100px;
+}
+
+.affiliate-header {
+    text-align: center;
+    font-size: 3rem;
+}
+.affiliate-form {
+    display: block;
+    width:50%;
+    margin:0 auto;
+    background-color: var(--primary-color);
+    padding:2rem 4rem;
+    margin-top:4rem;
+    margin-bottom:4rem;
+    border-radius: 20px;
+}
+
+.affiliate-img {
+    width:20%;
+    border-radius: 20px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom:2rem;
+}
+
+.battlegrips-header {
+    font-size:3rem;
+}
+.flexer {
+    display: flex;
+    margin-bottom:4rem;
+}
+
+.flexer > p  {
+    padding-left:4rem;
+}
+
+.affiliate-form > input {
+    width: 100%;
+    border: none;
+    border-bottom:1px solid rgb(215, 215, 215);
+    margin:1rem 0rem;
+    font-family: 'Black Ops One';
+    background-color: transparent;
+    color:white;
+    font-size: 1.2rem;
+}
+.affiliate-form > input::placeholder {
+    color:rgb(180, 180, 180) !important;
+}
+
+.affiliate-form > input:focus {
+    outline: none;
+}
+.affiliate-form > input::placeholder {
+    color: white;
+}
+.affiliate-p {
+    font-family: 'Black Ops One';
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom:2rem;
+    line-height: 4vh;
+}
+
+.affiliate-btn {
+    background-color: white;
+    color:var(--primary-color);
+    border-radius: 10px;
+    margin:0 auto;
+    justify-content: center;
+    display: flex;
+    margin-top:2rem;
+    font-size:1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border:3px solid var(--primary-color);
+
+}
+
+.affiliate-btn:hover {
+    background-color: var(--primary-color);
+    color:white;
+    box-shadow: 1px 1px 8px rgba(255,255,255,0.2);
+    border:3px solid white;
+}

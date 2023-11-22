@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.8.7",
+    "graphql": "^16.8.1",
     "next": "14.0.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.11.0",
+    "shopify-buy": "^2.21.1"
   },
   "devDependencies": {
     "eslint": "8.53.0",
