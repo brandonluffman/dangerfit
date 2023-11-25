@@ -41,3 +41,11 @@
 .newsletter-button:hover {
     background-color: black;
 }
+
+
+@media (max-width: 500px) {
+
+    .newsletter-input {
+        width:60%;
+    }
+}

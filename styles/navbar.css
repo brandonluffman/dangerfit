@@ -23,6 +23,10 @@
     color:black;
 }
 
+.scroll .hamburger-menu-icon {
+    color:black;
+}
+
 .scroll {
     background-color:rgba(255,255,255,1);
     color: var(--primary-color);
@@ -93,8 +97,89 @@
     color: white;;
 }
 
+.hamburger-btn {
+    display: none;
+    position: relative;
+}
+
+.hamburger-menu-icon {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    z-index:99999 !important;
+    color:white;
+    position: relative;
+    cursor: pointer;
+}
+
+.mobile-nav {
+    position: absolute;
+    height:100vh;
+    background-color: var(--primary-color);
+    top:0;
+    right:0;
+    z-index:9 !important;
+    margin:0;
+    padding: 3rem 2rem;
+    padding-top:100px;
+    transition: 0.2s ease-in-out all;
+}
+.mobile-nav-visible {
+    opacity: 0;
+    position: absolute;
+    padding: 3rem 2rem;
+    height:100vh;
+    background-color: var(--primary-color);
+    top:0;
+    right:0;
+    z-index:9 !important;
+    margin:0;
+    transition: 0.2s ease-in-out all;
+    transform: translateX(400px);
+}
+
+.mobile-nav-list {
+    list-style-type: none;
+    color:white;
+    margin:0;
+    padding: 0;
+}
+
+.mobile-nav-link {
+    font-size: 2rem;
+    margin: 1rem 1rem;
+    transition: 0.2s ease all;
+    font-family: 'Black Ops One' !important;
+    cursor:pointer;
+}
+.mobile-nav-link:hover {
+    color:rgb(214, 214, 214);
+
+}
+
+
 @media (max-width: 968px) {
     .nav-menu {
         display: none;
+    }
+    .hamburger-btn {
+        display: block;
+    }
+
+
+}
+
+@media (max-width: 500px) {
+    .nav-logo-brand {
+       font-size: 1.5rem;
+       display: none;
+    }
+
+    .nav-logo {
+        margin-right: 0.5rem;
+        width: 15%;
+    }
+
+    .affiliate-form {
+        width:90%;
     }
 }

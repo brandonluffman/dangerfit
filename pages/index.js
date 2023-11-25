@@ -55,7 +55,7 @@ export default function Home() {
 
 
     
-    <h6 className='index-about-header center-text'>Live Dangerously</h6>
+    <h6 className='index-about-header center-text live-dangerous-tag'>Live Dangerously</h6>
     <div className='index-about-p-container'>
     <p className='index-about-p'><span className='about-p-grey'>Introducing Danger Fit,</span><br></br><br></br> a veteran-owned enterprise established in 2022 at Penn State University. Our unwavering mission is to revolutionize the fitness industry, dedicated to crafting the most efficient workout experiences imaginable for you!</p>
     <div className='index-about-img-div'>

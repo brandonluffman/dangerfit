@@ -409,6 +409,10 @@
         margin-top:2rem;
     }
 
+    .live-dangerous-tag {
+        padding: 2rem;
+    }
+
     .about-p-grey {
         font-size: 2rem;
         font-weight: 700;

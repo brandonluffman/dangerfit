@@ -116,3 +116,55 @@
     box-shadow: 1px 1px 8px rgba(255,255,255,0.2);
     border:3px solid white;
 }
+
+@media (max-width: 968px) {
+    .affiliate-container {
+        padding:0rem 1rem;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .affiliate-p {
+        font-family: 'Black Ops One';
+        width: 100%;
+        margin-right: auto;
+        text-align: left;
+        /* margin-bottom: 3rem; */
+        line-height: 4vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .flexer > p {
+        padding-left:0;
+    }
+
+    .flexer {
+        display:block;
+    }
+
+    .affiliate-img {
+        width: 50%;
+    }
+    .affiliate-form {
+        width:70%;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .affiliate-form {
+        width:95%;
+        padding: 2rem 1rem;
+    }
+    .affiliate-img-2 {
+        width: 70%;
+    }
+    .affiliate-emoji {
+        margin-top: 0rem;
+        margin-bottom: 2rem;
+    }
+    .affiliate-header {
+        margin-bottom: 1rem;
+    }
+}
