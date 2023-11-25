@@ -157,8 +157,12 @@
         width:95%;
         padding: 2rem 1rem;
     }
+
+    .affiliate-img {
+        width: 65%;
+    }
     .affiliate-img-2 {
-        width: 70%;
+        width: 80%;
     }
     .affiliate-emoji {
         margin-top: 0rem;
