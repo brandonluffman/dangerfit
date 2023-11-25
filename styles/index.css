@@ -48,6 +48,7 @@
     /* height:100vh; */
     text-align: center;
     height: 700px;
+    background-color: black;
 }
 
 .videoContainer {
@@ -65,6 +66,7 @@
     width: 100vw;
     height:auto;
     object-fit: cover; /* This will cover the entire container and will be cut off if needed */
+    display: none;
   }
 .index-header {
     color:white;
@@ -183,11 +185,6 @@
 .group-img {
     width: 300px;
 }
-.index-about-img-container {
-    position: relative;
-    margin:6rem 0rem;
-
-}
 
 .last-item {
     grid-column: span 2;
@@ -247,70 +244,77 @@
     /* position: absolute; */
 }
 
-.left-arrow {
-    left:200px;
-    bottom:120px;
-    position: absolute;
+
+.index-about-img-container {
+    position: relative;
+    margin:6rem 0rem;
+    display: flex;
+    justify-content: space-around;
+
 }
+
+
+
+/* .left-arrow {
+    left:3%;
+    bottom:10%;
+    position: absolute;
+} */
 
 .left-arrow-text {
-    left:100px;
-    bottom:250px;
     font-size: 3rem;
+    margin-bottom: 0rem;
 
-    position: absolute;
 }
 .left-arrow-subtext {
-    position: absolute;
-    left:100px;
-    bottom:230px;
-    font-size: 1rem;
+    font-size: 2rem;
+    margin:0;
+    margin-bottom: 1rem;
 }
 
-.right-arrow {
-    /* transform: rotateY(90deg); */
-    right: 200px;
-    transform: scaleX(-1); /* Flip the image horizontally */
-    bottom:100px;
+/* .right-arrow {
+    right:1%;
+    transform: scaleX(-1); 
+    bottom:10%;
     position: absolute;
-}
+} */
 
 .right-arrow-text {
-    right:10px;
-    bottom:250px;
     font-size: 3rem;
-    position: absolute;
+    margin-bottom: 0rem;
+
 }
 .right-arrow-subtext {
-    position: absolute;
-    right:10px;
-    bottom:230px;
-    font-size: 1rem;
+    font-size: 2rem;
+    margin:0;
+    margin-bottom: 1rem;
 }
 
 .learn-more-btn-monk {
-    position: absolute;
-    top:190px;
-    left:100px;
+    /* position: absolute;
+    bottom:60%;
+    left:3%; */
     background-image: url('/monk.jpeg');
     border-radius: 50%;
     width:50px;
     height: 50px;
-    background-position: center top 245px;
+    background-position: center top 215px;
     background-size: 400%;
+    border:3px solid rgb(230, 230, 230);
 }
 
 .learn-more-btn-james {
-    position: absolute;
-    top:190px;
-    right:0px;
+    /* position: absolute;
+    bottom:50%;
+    right:0%; */
     background-image: url('/jardine.jpg');
     border-radius: 50%;
     width:50px;
     height: 50px;
-    background-position: center top 120px;
+    background-position: center top 105px;
     background-size: 200%;
     transition: 0.2s ease all;
+    border:3px solid rgb(230, 230, 230);
 
 }
 
@@ -318,3 +322,129 @@
     transform: scale(1.04);
     cursor: pointer;
 }
+
+.index-about-div {
+    position: relative;
+}
+
+@media (max-width: 968px) {
+
+    .index-container {
+        height:100vh;
+    }
+    .learn-more-btn-james,  .right-arrow,    .right-arrow-text,  .right-arrow-subtext{
+        position: relative;
+
+    }
+    .index-about-img-container {
+        display:block;
+        align-items: center;
+        text-align: center;
+    }
+    .index-about-div {
+        width:100%;
+    }
+
+    .learn-more-btn-monk, .learn-more-btn-james {
+        margin: 0 auto;
+
+    }
+
+    .index-about-main-img {
+        width:70%;
+        
+    }
+
+    .index-about-p-container {
+        display: block;
+        padding:0rem 2rem;
+    
+    }
+    .index-about-container {
+        padding:0rem;
+    }
+
+    .index-about-header {
+        margin: 3rem 1rem;
+    }
+
+    .launchbox-img-div {
+        min-height: 200px;
+    }
+    .last-item {
+        margin: 0rem;
+        margin-bottom:3rem;
+    }
+
+    .index-about-subheader {
+        width:80%;
+    }
+    .index-container {
+        background-color: black;
+    }
+    .index-header {
+        color:white;
+        font-weight: 700;
+        font-size: 6rem;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Black Ops One';
+        margin:0;
+        margin-bottom: 4rem;
+    }
+  }
+
+  @media (max-width: 500px) {
+
+    .index-header {
+        font-size: 3rem;
+        margin-bottom:8rem;
+    }
+    .index-about-subheader {
+        color: black;
+        font-size: 1.5rem;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 4rem;
+        margin-top:2rem;
+    }
+
+    .about-p-grey {
+        font-size: 2rem;
+        font-weight: 700;
+        color: rgb(200,200,200);
+        text-transform: uppercase;
+        font-family: 'Black Ops One';
+        text-align: left;
+    }
+    .index-about-img-div {
+        min-height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .index-about-p-container {
+        padding:0rem 1rem;
+    }
+
+    .index-about-p {
+        font-size: 1rem;
+    }
+
+    .dangerfit-img {
+        margin-bottom:2rem;
+    }
+
+    .last-item-p {
+        font-size: 1.2rem;
+    }
+
+    .last-item-btn {
+        font-size:1.5rem;
+    }
+
+    .last-item {
+        padding: 2rem 2rem;
+    }
+  }

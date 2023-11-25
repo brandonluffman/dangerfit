@@ -32,18 +32,29 @@ export default function Home() {
 <div className='index-about-container'>
 <h6 className='index-about-subheader'>At Danger Fit, our mission is to engineer the <i className='green-font'>ultimate</i> workout experience, maximizing efficiency and effectiveness for every fitness journey!</h6>
 <div className='index-about-img-container'>
+    <div className='index-about-div'>
+
     <h2 className='left-arrow-text green-font'>Brian Monk</h2>
     <h6 className='left-arrow-subtext'>CEO</h6>
     <Link href='/team-danger'><div className='learn-more-btn-monk learn-more-btn'></div></Link>
-    <img src='/arrow.png' className='arrow left-arrow'></img>
+    {/* <img src='/arrow.png' className='arrow left-arrow'></img> */}
+    </div>  
+    <div className='index-about-div'>
 
     <h2 className='right-arrow-text green-font'>James Jardine</h2>
     <h6 className='right-arrow-subtext'>COO</h6>
     <Link href='/team-danger'><div className='learn-more-btn-james learn-more-btn'></div></Link>
-
-    <img src='/arrow.png' className='arrow right-arrow'></img>
-    <img className='index-about-main-img' src='/statue.jpeg'></img>
+    {/* <img src='/arrow.png' className='arrow right-arrow'></img> */}
     </div>
+
+    </div>
+    <img className='index-about-main-img' src='/statue.jpeg'></img>
+
+
+
+
+
+    
     <h6 className='index-about-header center-text'>Live Dangerously</h6>
     <div className='index-about-p-container'>
     <p className='index-about-p'><span className='about-p-grey'>Introducing Danger Fit,</span><br></br><br></br> a veteran-owned enterprise established in 2022 at Penn State University. Our unwavering mission is to revolutionize the fitness industry, dedicated to crafting the most efficient workout experiences imaginable for you!</p>
@@ -60,15 +71,15 @@ export default function Home() {
     <div className='index-about-img-div'>
     <img className='index-about-img group-img' src='/group.jpg'></img>
     </div>
-    <div className='index-about-img-div'>
+    <div className='index-about-img-div launchbox-img-div'>
 
-    <img className='index-about-img white-img' src='/launchbox.png'></img>
+    <img className='index-about-img white-img launchbox-img' src='/launchbox.png'></img>
     </div>
     <p className='index-about-p'><span className='about-p-grey'>Launchbox Contenders</span><br></br><br></br>Having clinched the 2nd position in the prestigious Happy Valley Launchbox Final Pitch Contest, we stand as a testament to our dedication and innovation. As veterans in the industry, we understand the importance of quality, which is why each product we engineer is tested and approved by real gym enthusiasts.</p>
     <p className='index-about-p'><span className='about-p-grey'>Stay Tuned...</span><br></br><br></br>As we look ahead, our commitment to pushing boundaries remains unwavering. Stay tuned for a lineup of cutting-edge gym equipment, meticulously crafted to redefine your fitness journey.</p>
     <div className='index-about-img-div'>
 
-    <img className='index-about-img white-img' src='/danger-fit-logo.png'></img>
+    <img className='index-about-img white-img dangerfit-img' src='/danger-fit-logo.png'></img>
     </div>
     <div className='last-item'>
     <MdVerified className='verified-icon' />

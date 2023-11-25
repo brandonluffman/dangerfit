@@ -180,11 +180,13 @@ Link {
     .footer-brand-container {
         width:100%;
         margin-bottom:3rem;
+        display: block;
     }
 
     .footer-links-container {
     width:100%;
     justify-content: space-around;
+    display: block;
 
     }
    
@@ -192,7 +194,7 @@ Link {
         height:auto;
         padding:0rem 2rem;
     }
-    .contact-links {
+    /* .contact-links {
         display: none;
-    }
+    } */
 }
