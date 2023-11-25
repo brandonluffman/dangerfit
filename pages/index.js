@@ -25,7 +25,7 @@ export default function Home() {
       <AiFillStar className='index-star'/>
     </div>
     <h1 className='index-header'>Danger Fit</h1>
-    <button className='btn btn-black landing-btn'>Shop Now</button>
+    <Link href='https://75536e-2.myshopify.com/'><button className='btn btn-black landing-btn'>Shop Now</button></Link>
 
       {/* <h1>DANGERFIT</h1> */}
       </div>
@@ -73,7 +73,7 @@ export default function Home() {
     <div className='last-item'>
     <MdVerified className='verified-icon' />
     <p className='index-about-p last-item-p'> Experience Danger Fit, where passion meets performance, and together, we forge a path to greatness.</p>
-    <button className='btn btn-black last-item-btn'>Shop Now</button>
+    <Link href='https://75536e-2.myshopify.com/'><button className='btn btn-black last-item-btn'>Shop Now</button></Link>
     </div>
     </div>
 </div>

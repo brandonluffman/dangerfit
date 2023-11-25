@@ -1,3 +1,69 @@
 .battlegrip-container {
-    height:auto;
+    height:700px;
+    padding-top:100px;
+    text-align: center;
+    background-color: black;
+    margin-bottom: 4rem;
+}
+
+.battlegrip-img-div {
+    margin-bottom: 4rem;
+}
+.battlegrips-header-main {
+    color:var(--primary-color);
+    font-size: 4rem !important;
+    position: relative;
+}
+.battlegrips-header {
+    
+}
+
+.trademark-icon {
+    color:white;
+    font-size: 2rem;
+    position: absolute;
+}
+
+.specifications-item {
+    grid-column: span 2;
+    text-align: center !important;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding:2rem 2rem;
+    /* height:200px; */
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Black Ops One';
+    margin:2rem;
+    border:3px solid black;
+    width:50%;
+    margin: 2rem auto;
+}
+
+.specifications-item > ul {
+    list-style-type: none;
+    text-align: left;
+}
+.specifications-item > ul > li {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+.specs-header {
+    margin:0;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.specs-bold {
+    font-family: 'Black Ops One';
+    font-size: 1.5rem ;
+    min-width: 200px;
+}
+
+.battlegrips-img {
+    width:25%;
 }

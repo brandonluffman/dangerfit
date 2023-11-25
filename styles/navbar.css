@@ -4,30 +4,51 @@
     height:100px;
     display: flex;
     justify-content: space-between;
-    background-color:rgba(255,255,255,0.5);
-    color: ar(--primary-color);
+    background-color:rgba(255,255,255,0);
+    color: var(--primary-color);
     margin: 0;
     padding: 0;
     top:0;
     align-items: center;
-    box-shadow: 1px 3px 12px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 6px rgba(255, 255, 255, 0.2);
     padding-left:2rem;
     z-index:99999;
     transition: 0.2s ease all;
 }
 
+.navbar .nav-link:hover {
+    color:white;
+}
+.scroll .nav-link:hover {
+    color:black;
+}
+
 .scroll {
     background-color:rgba(255,255,255,1);
+    color: var(--primary-color);
+    box-shadow: 1px 3px 12px rgba(255, 255, 255, 0.2);
 
 }
 
 .nav-logo {
-    width:20%;
+    width:7%;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;    
-    padding-top:0.5rem;
+    text-align: center;  
+    margin-right: 1rem;  
+    /* padding-top:0.5rem; */
+    /* box-shadow: 1px 1px 8px rgba(255,255,2550.3); */
+}
+.nav-brand-link {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo-brand {
+    text-transform: uppercase;
+    letter-spacing: -0.05vw;
+    font-size: 2.5rem;
 }
 
 .nav-menu {
@@ -35,6 +56,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-right: 2rem;
 }
 
 .nav-link {
@@ -46,7 +68,7 @@
 }
 
 .nav-link:hover {
-    color:var(--primary-color);
+    color:black;
 }
 
 .shopping-nav-link {

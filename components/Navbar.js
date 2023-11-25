@@ -43,15 +43,18 @@ const Navbar = () => {
   return (
             <nav className={navbar ? 'navbar scroll' : 'navbar'} id="navbar">
 
-        <Link href='/'><img src='/danger-fit-logo-transparent.png' className='nav-logo'></img></Link>
+        {/* <Link href='/'><img src='/danger-fit-logo-transparent.png' className='nav-logo'></img></Link> */}
+        <Link href='/' className='nav-brand-link'><img src='/dangerfit-logo-test.png' className='nav-logo'></img><h1 className='nav-logo-brand'>Danger Fit</h1></Link>
+
         <ul className='nav-menu'>
             <Link href='/'><li className='nav-link'>Home</li></Link>
-            <Link href='/apparel'><li className='nav-link'>Apparel</li></Link>
+            {/* <Link href='/apparel'><li className='nav-link'>Apparel</li></Link> */}
             <Link href='/team-danger'><li className='nav-link'>Team Danger</li></Link>
             <Link href='/affiliate'><li className='nav-link'>Affiliate Program</li></Link>
             <Link href='/battlegrip'><li className='nav-link'>Battle Grip</li></Link>
+            <Link href='https://75536e-2.myshopify.com/'><li className='nav-link'>Shop</li></Link>
 
-            <li className='nav-link shopping-nav-link'><AiFillShopping className='shopping-cart'/> <div className='cart-qty'>0</div></li>
+            {/* <li className='nav-link shopping-nav-link'><AiFillShopping className='shopping-cart'/> <div className='cart-qty'>0</div></li> */}
         </ul>
     </nav>
   )

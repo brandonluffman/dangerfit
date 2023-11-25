@@ -1,6 +1,9 @@
 .team-container {
     padding-top:8rem;
     text-align: center;
+    background-color: black;
+    color:white;
+    padding-bottom:8rem;
 }
 
 .team-subheader {
@@ -47,7 +50,7 @@
     text-align: center;
     width:40%;
     padding: 1rem 1rem;
-    box-shadow:1px 1px 12px rgba(0,0,0,0.1);
+    box-shadow:1px 1px 40px rgba(255, 255, 255, 0.2);
     border-radius: 20px;
     margin:0 auto;
     border:7px solid var(--primary-color);
@@ -57,7 +60,7 @@
 
 .team-section-container {
     display: flex;
-    margin-bottom:6rem;
+    /* margin-bottom:6rem; */
 }
 
 .team-section-p {
