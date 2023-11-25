@@ -11,12 +11,15 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   const [user, setUser] = useState(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-
-
   // Function to toggle the menu state
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+    console.log(isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+    setIsMenuOpen(false);
   };
 
   const toggleDropdown = () => {
@@ -64,16 +67,15 @@ const Navbar = () => {
 
               {/* Mobile navigation menu */}
           
-              <div className={isMenuOpen ? "mobile-nav-visible" : "mobile-nav"}>
-                  <ul className='mobile-nav-list'>
-                  <Link href='/'><li className='mobile-nav-link dropdown'>Home</li></Link>
-                  <Link href='/team-danger'><li className='mobile-nav-link dropdown'>Team Danger</li></Link>
-                  <Link href='/affiliate'><li className='mobile-nav-link dropdown'>Affiliates</li></Link>
-                  <Link href='/battlegrip'><li className='mobile-nav-link dropdown'>Battle Grip</li></Link>
-
-                  <Link href='https://75536e-2.myshopify.com/'><li className='mobile-nav-link dropdown'>Shop</li></Link>
-                  </ul>
-                </div>
+              <div className={isMenuOpen ? "mobile-nav" : "mobile-nav-not-visible"}>
+                <ul className='mobile-nav-list'>
+                    <Link href='/'><li className='mobile-nav-link dropdown' onClick={toggleMenu}>Home</li></Link>
+                    <Link href='/team-danger'><li className='mobile-nav-link dropdown' onClick={closeMenu}>Team Danger</li></Link>
+                    <Link href='/affiliate'><li className='mobile-nav-link dropdown' onClick={closeMenu}>Affiliates</li></Link>
+                    <Link href='/battlegrip'><li className='mobile-nav-link dropdown' onClick={toggleMenu}>Battle Grip</li></Link>
+                    <Link href='https://75536e-2.myshopify.com/'><li className='mobile-nav-link dropdown' onClick={toggleMenu}>Shop</li></Link>
+                </ul>
+            </div>
             
     </nav>
   )
