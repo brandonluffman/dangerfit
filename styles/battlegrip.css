@@ -111,15 +111,19 @@
 .specs-bold {
     font-family: 'Black Ops One';
     font-size: 1rem ;
-    min-width: 50px;
 }
 .specifications-item > ul > li {
     margin-bottom: 2rem;
     display: block;
     align-items: center;
+
 }
 
 .specs-header {
     font-size: 2rem;
+}
+
+.specifications-item > ul {
+   padding-left:0.5rem;
 }
 }
