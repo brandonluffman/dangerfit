@@ -147,6 +147,8 @@
     z-index:9 !important;
     margin:0;
     transition: 0.2s ease-in-out all;
+    padding-top:100px;
+
     transform: translateX(400px);
 }
 
