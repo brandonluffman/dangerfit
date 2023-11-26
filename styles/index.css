@@ -343,7 +343,15 @@
 @media (max-width: 968px) {
 
     .index-container {
-        height:100vh;
+        height:700px;
+    }
+    .index-container {
+        background-image: url('/lifting-shot.png');
+        background-position: center;
+        
+    }
+    .videoContainer {
+        display: none;
     }
     .learn-more-btn-james,  .right-arrow,    .right-arrow-text,  .right-arrow-subtext{
         position: relative;
@@ -392,11 +400,7 @@
     .index-about-subheader {
         width:80%;
     }
-    .index-container {
-        background-image: url('/lifting-shot.png');
-        background-position: center;
-        
-    }
+  
     .index-header {
         color:white;
         font-weight: 700;
@@ -410,7 +414,14 @@
   }
 
   @media (max-width: 500px) {
-
+    .index-container {
+        background-image: url('/lifting-shot.png');
+        background-position: center;
+        
+    }
+    .videoContainer {
+        display: none;
+    }
     .index-header {
         font-size: 3rem;
         margin-bottom:8rem;
