@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from '../components/Navbar'
@@ -6,12 +6,28 @@ import Footer from '../components/Footer'
 import { AiFillStar } from 'react-icons/ai'
 import { MdVerified } from "react-icons/md";
 import Link from 'next/link'
+import Popup from '../components/Popup';
 
 export default function Home() {
+  const maintenance = false;
 
-  const maintenance = true;
+  const [isPopupOpen, setPopupOpen] = useState(true); // Set to true initially
 
-
+  useEffect(() => {
+    // Check if the popup has already been shown in this session
+    const hasShownPopup = sessionStorage.getItem('hasShownPopup');
+  
+    if (hasShownPopup) {
+      // If it has been shown, set the popup state to false
+      setPopupOpen(false);
+    } else {
+      // If not shown before, set the item in session storage
+      sessionStorage.setItem('hasShownPopup', 'true');
+    }
+  }, []);
+  
+  // Your closePopup function remains the same
+  const closePopup = () => setPopupOpen(false);
   return (
    <>
     {maintenance ? (
@@ -28,6 +44,10 @@ export default function Home() {
       <>
       <Navbar />
       <div className='index-container'>
+      {/* <button onClick={openPopup}>Open Popup</button> */}
+      <Popup isOpen={isPopupOpen} onClose={closePopup}>
+        <p>This is the popup content!</p>
+      </Popup>
       <div className='videoContainer'>
         <video autoPlay loop muted playsInline className='video'>
           <source src="/lifting.mp4" type="video/mp4" />
@@ -81,16 +101,16 @@ export default function Home() {
       </div>
       <div className='index-about-img-div'>
   
-      <img className='index-about-img' src='/wunderbar.jpeg'></img>
+      <img className='index-about-img' src='/lat.PNG'></img>
       </div>
-      <p className='index-about-p'><span className='about-p-grey'>At Danger Fit, we...</span><br></br><br></br> transcend the ordinary. We offer an exclusive range of gym apparel tailored for those who are committed to achieving their best selves. Our upcoming innovation, <q>The Wunder Bar</q>, set to launch this winter, is a game-changer. This revolutionary multiple grip cable attachment promises unparalleled comfort and formidable strength, elevating your workout to new heights.</p>
+      <p className='index-about-p'><span className='about-p-grey'>At Danger Fit, we...</span><br></br><br></br> transcend the ordinary. We offer an exclusive range of gym apparel tailored for those who are committed to achieving their best selves. Our upcoming innovation, <q>The Battle Bar</q>, set to launch this winter, is a game-changer. This revolutionary multiple grip cable attachment promises unparalleled comfort and formidable strength, elevating your workout to new heights.</p>
       <p className='index-about-p'><span className='about-p-grey'>What sets us apart?</span><br></br><br></br> We&apos;re more than just a company; we&apos;re a community. We&apos;re driven by the desire to empower individuals to become the best versions of themselves. Our platform serves as a beacon of motivation, designed to inspire and uplift. We believe in the power of hard work, discipline, and the pursuit of success.</p>
       <div className='index-about-img-div'>
       <img className='index-about-img group-img' src='/group.jpg'></img>
       </div>
       <div className='index-about-img-div launchbox-img-div'>
   
-      <img className='index-about-img white-img launchbox-img' src='/launchbox.png'></img>
+      <img className='index-about-img launchbox-img' src='/launchbox-new.png'></img>
       </div>
       <p className='index-about-p'><span className='about-p-grey'>Launchbox Contenders</span><br></br><br></br>Having clinched the 2nd position in the prestigious Happy Valley Launchbox Final Pitch Contest, we stand as a testament to our dedication and innovation. As veterans in the industry, we understand the importance of quality, which is why each product we engineer is tested and approved by real gym enthusiasts.</p>
       <p className='index-about-p'><span className='about-p-grey'>Stay Tuned...</span><br></br><br></br>As we look ahead, our commitment to pushing boundaries remains unwavering. Stay tuned for a lineup of cutting-edge gym equipment, meticulously crafted to redefine your fitness journey.</p>

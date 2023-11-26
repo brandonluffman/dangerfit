@@ -29,6 +29,9 @@
     margin: 0 auto;
     margin-bottom: 3rem;
     min-height:50px;
+    margin-bottom: 2rem;
+    padding-bottom:2rem;
+    border-bottom: 2px solid rgb(50, 50, 50);
 }
 
 .team-section-suberheader {
@@ -36,6 +39,7 @@
     color:var(--primary-color);
     font-size: 1.6rem;
     margin-bottom: 1rem;
+
 }
 .team-profile-img {
     width:200px;
@@ -64,11 +68,16 @@
 }
 
 .team-section-p {
-    width:90%;
+    width:100%;
     margin:0 auto;
-    font-family:'Times New Roman', Times, serif;
+    font-family:sans-serif;
     line-height:4vh ;
-    font-weight:600;
+    font-weight:700;
+    font-size: 1.25rem;
+    letter-spacing: -0.05vw;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 0rem 1rem;
 }
 
 @media (max-width: 968px) {

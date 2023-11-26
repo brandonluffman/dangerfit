@@ -63,14 +63,15 @@
     color: white;
 }
 .affiliate-p {
-    font-family: 'Black Ops One';
-    width:60%;
+    font-family: sans-serif;
+        width:60%;
     margin-right:auto;
     text-align: left;
     /* margin-bottom:3rem; */
-    line-height: 4vh;
+    line-height:6vh;
     display: flex;
     align-items: center;
+    font-size: 1.5rem;
 }
 
 .affiliate-p:nth-of-type(2) {
@@ -124,7 +125,6 @@
         padding-bottom: 100px;
     }
     .affiliate-p {
-        font-family: 'Black Ops One';
         width: 100%;
         margin-right: auto;
         text-align: left;

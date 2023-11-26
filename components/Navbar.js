@@ -48,7 +48,7 @@ const Navbar = () => {
             <nav className={navbar ? 'navbar scroll' : 'navbar'} id="navbar">
 
         {/* <Link href='/'><img src='/danger-fit-logo-transparent.png' className='nav-logo'></img></Link> */}
-        <Link href='/' className='nav-brand-link'><img src='/dangerfit-logo-test.png' className='nav-logo'></img><h1 className='nav-logo-brand'>Danger Fit</h1></Link>
+        <Link href='/' className='nav-brand-link'><img src='/logo.png' className='nav-logo'></img><h1 className='nav-logo-brand'></h1></Link>
 
         <ul className='nav-menu'>
             <Link href='/'><li className='nav-link'>Home</li></Link>

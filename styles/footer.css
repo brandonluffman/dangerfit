@@ -13,6 +13,12 @@
     /* box-shadow:1px 3px 14px rgba(0,0,0,0.2); */
 }
 
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .fa-twitter {
     color:#1D9BF0;
@@ -37,16 +43,29 @@ padding:0rem 0.2rem;
     color:#0e76a8;
 }
 
+.fa-spotify {
+    color:#1ED760;
+}
+
 .social-icon {
     font-size:2rem;
     margin: 1rem 1rem; 
     cursor:pointer; 
 }
 
+.social-img {
+    width:55%;
+    border-radius: 10px;
+}
+
 .privacy-policy {
     margin:0;
     font-size:1.5rem;
     padding:1rem 0rem;
+}
+
+.phorm-link {
+    width: 60px;
 }
 
 

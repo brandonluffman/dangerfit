@@ -146,8 +146,8 @@
     /* padding:6rem 0rem;
     width: 50%; */
     text-align: left;
-    font-family: 'Black Ops One';
-    color:rgb(20, 20, 20);
+    font-family: sans-serif;
+        color:rgb(20, 20, 20);
     border:1px solid rgb(240, 240, 240);
     height:100%;
     align-items: center;
@@ -393,7 +393,7 @@
         width:80%;
     }
     .index-container {
-        background-color: black;
+        background-image: url('/posing-shot.png');
     }
     .index-header {
         color:white;

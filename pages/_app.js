@@ -7,6 +7,8 @@ import '../styles/newsletterform.css'
 import '../styles/teamdanger.css'
 import '../styles/affiliate.css'
 import '../styles/battlegrip.css'
+import '../styles/contact.css'
+import '../styles/popup.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
