@@ -346,7 +346,8 @@
         height:700px;
     }
     .index-container {
-        background-image: url('/lifting-shot.png');
+        /* background-color: black !important; */
+        background: url('/lifting-shot.PNG');
         background-position: center;
         
     }
@@ -415,7 +416,7 @@
 
   @media (max-width: 500px) {
     .index-container {
-        background-image: url('/lifting-shot.png');
+        background-image: url('/lifting-shot.PNG');
         background-position: center;
         
     }
