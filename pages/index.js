@@ -10,7 +10,6 @@ import Popup from '../components/Popup';
 
 export default function Home() {
   const maintenance = false;
-
   const [isPopupOpen, setPopupOpen] = useState(true); // Set to true initially
 
   useEffect(() => {
