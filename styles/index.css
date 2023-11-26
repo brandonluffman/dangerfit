@@ -393,7 +393,9 @@
         width:80%;
     }
     .index-container {
-        background-image: url('/posing-shot.png');
+        background-image: url('/lifting-shot.png');
+        background-position: center;
+        
     }
     .index-header {
         color:white;
