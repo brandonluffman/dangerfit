@@ -61,7 +61,7 @@
     /* height:100vh; */
     text-align: center;
     height: 700px;
-    background-color: black;
+    /* background-color: black; */
 }
 
 .videoContainer {
@@ -79,7 +79,7 @@
     width: 100vw;
     height:auto;
     object-fit: cover; /* This will cover the entire container and will be cut off if needed */
-    display: none;
+    /* display: none; */
   }
 .index-header {
     color:white;

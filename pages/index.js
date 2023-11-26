@@ -30,7 +30,7 @@ export default function Home() {
       <div className='index-container'>
       <div className='videoContainer'>
         <video autoPlay loop muted playsInline className='video'>
-          <source src="/lifting-landing.mp4" type="video/mp4" />
+          <source src="/lifting.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>

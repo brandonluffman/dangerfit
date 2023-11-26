@@ -61,6 +61,7 @@
     justify-content: space-around;
     align-items: center;
     margin-right: 2rem;
+    width:100%;
 }
 
 .nav-link {
