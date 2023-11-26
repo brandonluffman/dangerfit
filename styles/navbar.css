@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     background-color:rgba(255,255,255,0);
-    color: var(--primary-color);
+    color: white;
     margin: 0;
     padding: 0;
     top:0;
@@ -15,12 +15,22 @@
     z-index:99999;
     transition: 0.2s ease all;
 }
-
-.navbar .nav-link:hover {
+.navbar .nav-link {
     color:white;
+}
+.navbar .nav-link:hover {
+    color:rgb(200, 200, 200);
 }
 .scroll .nav-link:hover {
     color:black;
+}
+
+.scroll .nav-link {
+    color:var(--primary-color);
+}
+
+.scroll .nav-logo-brand {
+    color:var(--primary-color);
 }
 
 .scroll .hamburger-menu-icon {
@@ -29,7 +39,7 @@
 
 .scroll {
     background-color:rgba(255,255,255,1);
-    color: var(--primary-color);
+    color: var(--primary-color) !important;
     box-shadow: 1px 3px 12px rgba(20, 20, 20, 0.2);
 
 }
