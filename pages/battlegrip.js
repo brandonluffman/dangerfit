@@ -51,7 +51,6 @@ const battlegrip = () => {
     <img className='index-about-img' src='/posing-shot.png'></img>
     </div>
     <div className='index-about-img-div'>
-
     <img className='index-about-img' src='/lifting-shot-2.png'></img>
     </div>
     <p className='index-about-p'><span className='about-p-grey'>Built Tough, Just Like You</span><br></br><br></br>Crafted with precision and passion, Battle Grips are forged from the highest quality materials. These grips are as resilient as the warriors who wield them, ensuring they stand the test of time, rep after rep.</p>
