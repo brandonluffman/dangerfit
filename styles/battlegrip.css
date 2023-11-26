@@ -7,15 +7,27 @@
 }
 
 .battlegrip-img-div {
-    margin-bottom: 4rem;
+    /* margin-bottom: 4rem; */
+    width: 100vw !important;
+    box-shadow: inset 1px 1px 40px rgba(196, 196, 196, 0.1);
+    background-color: rgb(10, 10, 10);
+    border-top:2px solid rgb(50, 50, 50);
+    border-bottom:2px solid rgb(50, 50, 50);
+
 }
 .battlegrips-header-main {
     color:var(--primary-color);
     font-size: 4rem !important;
     position: relative;
+    margin-bottom: 1rem;
 }
 .battlegrips-header {
     
+}
+.battlegrips-img {
+    width:45%;
+    /* background-color: rgb(10, 10, 10); */
+border-radius: 20px;
 }
 
 .trademark-icon {
@@ -64,9 +76,6 @@
     min-width: 200px;
 }
 
-.battlegrips-img {
-    width:25%;
-}
 @media (max-width: 500px) {
     .battlegrips-header-main {
         color: var(--primary-color);

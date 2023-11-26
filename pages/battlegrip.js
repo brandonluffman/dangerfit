@@ -13,7 +13,7 @@ const battlegrip = () => {
 
             <h1 className='battlegrips-header-main'>BattleGrips <FaTrademark className='trademark-icon'/></h1>
             <div className='battlegrip-img-div'>
-            <img src='/dumbell.png' className='battlegrips-img'></img>
+            <img src='/battlegrip.png' className='battlegrips-img'></img>
             </div>
             <button className='btn btn-black last-item-btn'>Shop Now</button>
 
@@ -38,7 +38,7 @@ const battlegrip = () => {
     <p className='index-about-p'><span className='about-p-grey'>Introducing Battle Grips</span><br></br><br></br> Elevate your workouts to a new level of precision and power with our revolutionary Battle Grips. Designed for the fearless, crafted for the determined.</p>
     <div className='index-about-img-div'>
 
-    <img className='index-about-img' src='/dumbell.png'></img>
+    <img className='index-about-img' src='/battlegrip.png'></img>
     </div>
     <div className='index-about-img-div'>
 
