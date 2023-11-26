@@ -9,13 +9,14 @@ import Link from 'next/link'
 
 export default function Home() {
 
-  const maintenance = true;
+  const maintenance = false;
 
 
   return (
    <>
     {maintenance ? (
-      <div className='black-splash'>      <div className='index-stars index-splash'>
+      <div className='black-splash'>      
+      <div className='index-stars index-splash'>
       <AiFillStar className='index-star'/>
       <AiFillStar className='index-star'/>
       <AiFillStar className='index-star'/>
