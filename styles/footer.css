@@ -114,8 +114,12 @@ padding:0rem 0.2rem;
     letter-spacing: -0.05vw;
     text-transform: uppercase;
     font-family: 'Black Ops One';
-
+    transition: 0.2s ease all;
     
+}
+
+.footer-link:hover {
+    color:rgb(199, 199, 199);
 }
 
 .copyright-footer-flexer {

@@ -29,13 +29,12 @@ const Footer = () => {
               </div>
 
               <div className='footer-links-container'>
-                          <div className='footer-links'>
+                          {/* <div className='footer-links'>
                             <div className='footer-links-header'><p className='footer-link-header'>SHOP</p></div>
                             <Link href='/apparel'><div className='footer-link'>Apparel</div></Link>
                             <Link href='/products'><div className='footer-link'>Gym Gear</div></Link>
                             <Link href='/battlegrip'><div className='footer-link'>Battle Grip</div></Link>
-                            {/* <Link href='/blogs'><div className='footer-link'>Cover Letter Builder</div></Link> */}
-                          </div>
+                          </div> */}
                           {/* <div className='footer-links'>
                             <div className='footer-links-header'><p className='footer-link-header'>Examples</p></div>
                             <Link href='/resume-templates'><p className='footer-link'>Resume</p></Link>
@@ -43,6 +42,15 @@ const Footer = () => {
                             <Link href='/resignation-letter-templates'><p className='footer-link'>Resignation</p></Link>
                             
                           </div> */}
+                           <div className='footer-links contact-links'>
+                            <p className='footer-links-header'>Company</p>
+                            <Link href='/team-danger'><div className='footer-link'>About</div></Link>
+                            <Link href='/contact'><div className='footer-link'>Contact</div></Link>
+                            <Link href='/affiliate'><p className='footer-link'>Affiliate</p></Link>
+                            <Link href='/battlegrip'><p className='footer-link'>Battlegrip</p></Link>
+
+                            <Link href='https://danger-fit.myshopify.com/'><p className='footer-link'>Shop</p></Link>
+                          </div>
                           <div className='footer-links contact-links'>
                             <p className='footer-links-header'>Resources</p>
                             <Link target='_blank' rel='noreferrer' href='https://www.privacypolicygenerator.info/live.php?token=X9rYsibwbs1UKYQ41C7KL0IBJSIEOkts'><div className='footer-link tou-link'>Privacy Policy</div></Link>
@@ -50,14 +58,7 @@ const Footer = () => {
                             {/* <p className='footer-link'><GoMail className='footer-contact-icon' /> info@resumebuilderai.com</p> */}
                             {/* <p className='footer-link'><IoIosPhonePortrait className='footer-contact-icon' /> (203) 822-2311</p> */}
                           </div>
-                          <div className='footer-links contact-links'>
-                            <p className='footer-links-header'>Company</p>
-                            <Link href='/about'><div className='footer-link'>About</div></Link>
-                            <Link href='/contact'><div className='footer-link'>Contact</div></Link>
-                            <Link href='/affiliate'><p className='footer-link'>Affiliate</p></Link>
-
-                            {/* <p className='footer-link'><IoIosPhonePortrait className='footer-contact-icon' /> (203) 822-2311</p> */}
-                          </div>
+                         
                 </div>
               </div>   
               <div className='copyright-footer'>
