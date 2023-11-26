@@ -42,16 +42,16 @@ const battlegrip = () => {
     </div>
     <div className='index-about-img-div'>
 
-    <img className='index-about-img' src='/lifting-shot.png'></img>
+    <img className='index-about-img' src='/lifting-shot.PNG'></img>
     </div>
     <p className='index-about-p'><span className='about-p-grey'>Unleash Your Full Potential</span><br></br><br></br>
     Engineered for ultimate versatility, Battle Grips empower you to customize your grip placement with unmatched ease. Whether you&apos;re sculpting your physique or honing your strength, these grips adapt to your every move, providing unrivaled comfort and support.</p>
     <p className='index-about-p'><span className='about-p-grey'>Wrist Freedom, Unleashed</span><br></br><br></br> For those who demand more than ordinary equipment, Battle Grips redefine the boundaries. No longer bound by rigid hand placements, your wrists experience a new realm of freedom. This unique feature ensures that every lift is executed with maximum precision and efficiency, giving you the edge you need to surpass your limits.</p>
     <div className='index-about-img-div'>
-    <img className='index-about-img' src='/posing-shot.png'></img>
+    <img className='index-about-img' src='/posing-shot.PNG'></img>
     </div>
     <div className='index-about-img-div'>
-    <img className='index-about-img' src='/lifting-shot-2.png'></img>
+    <img className='index-about-img' src='/lifting-shot-2.PNG'></img>
     </div>
     <p className='index-about-p'><span className='about-p-grey'>Built Tough, Just Like You</span><br></br><br></br>Crafted with precision and passion, Battle Grips are forged from the highest quality materials. These grips are as resilient as the warriors who wield them, ensuring they stand the test of time, rep after rep.</p>
     <p className='index-about-p'><span className='about-p-grey'>The Danger Fit Difference</span><br></br><br></br>At Danger Fit, we live dangerously and chase success relentlessly. As a veteran-owned and operated company, we understand the importance of efficiency in every workout. Battle Grips are a testament to our commitment to your fitness journey.</p>
