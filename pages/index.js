@@ -100,7 +100,7 @@ export default function Home() {
       </div>
       <div className='index-about-img-div'>
   
-      <img className='index-about-img' src='/lat.PNG'></img>
+      <img className='index-about-img' src='/lat.png'></img>
       </div>
       <p className='index-about-p'><span className='about-p-grey'>At Danger Fit, we...</span><br></br><br></br> transcend the ordinary. We offer an exclusive range of gym apparel tailored for those who are committed to achieving their best selves. Our upcoming innovation, <q>The Battle Bar</q>, set to launch this winter, is a game-changer. This revolutionary multiple grip cable attachment promises unparalleled comfort and formidable strength, elevating your workout to new heights.</p>
       <p className='index-about-p'><span className='about-p-grey'>What sets us apart?</span><br></br><br></br> We&apos;re more than just a company; we&apos;re a community. We&apos;re driven by the desire to empower individuals to become the best versions of themselves. Our platform serves as a beacon of motivation, designed to inspire and uplift. We believe in the power of hard work, discipline, and the pursuit of success.</p>
