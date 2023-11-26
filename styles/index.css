@@ -479,4 +479,22 @@
     .last-item {
         padding: 2rem 2rem;
     }
+
+    .learn-more-btn-monk, .learn-more-btn-james {
+        width:80px;
+        height:80px;
+
+    }  
+    .learn-more-btn-monk {
+
+        background-position: center top 362px;
+ 
+    }
+    
+    .learn-more-btn-james {
+        background-position: center top -33px;
+        background-repeat: no-repeat;
+    
+    } 
+
   }
