@@ -72,8 +72,8 @@ const Navbar = () => {
                     <Link href='/'><li className='mobile-nav-link dropdown' onClick={toggleMenu}>Home</li></Link>
                     <Link href='/team-danger'><li className='mobile-nav-link dropdown' onClick={closeMenu}>Team Danger</li></Link>
                     <Link href='/affiliate'><li className='mobile-nav-link dropdown' onClick={closeMenu}>Affiliates</li></Link>
-                    <Link href='/battlegrip'><li className='mobile-nav-link dropdown' onClick={toggleMenu}>Battle Grip</li></Link>
-                    <Link href='https://75536e-2.myshopify.com/'><li className='mobile-nav-link dropdown' onClick={toggleMenu}>Shop</li></Link>
+                    <Link href='/battlegrip'><li className='mobile-nav-link dropdown' onClick={toggleMenu}>Shop</li></Link>
+                    <Link href='https://75536e-2.myshopify.com/'><li className='mobile-nav-link dropdown' onClick={toggleMenu}>Apparel</li></Link>
                 </ul>
             </div>
             
