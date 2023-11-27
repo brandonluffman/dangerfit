@@ -93,7 +93,7 @@ border-radius: 20px;
     right:5%;
 }
 .battlegrips-img {
-    width: 50%;
+    width: 70%;
 }
 
 .specifications-item {
@@ -134,4 +134,8 @@ border-radius: 20px;
 .specifications-item > ul {
    padding-left:0.5rem;
 }
+.battlegrip-img-div {
+    margin-bottom: 4rem;
 }
+}
+

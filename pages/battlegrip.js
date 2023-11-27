@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import { AiFillStar } from 'react-icons/ai'
 import { MdVerified } from 'react-icons/md'
 import { FaTrademark } from "react-icons/fa";
+import Link from 'next/link'
 
 const battlegrip = () => {
   return (
@@ -15,7 +16,7 @@ const battlegrip = () => {
             <div className='battlegrip-img-div'>
             <img src='/battlegrip.png' className='battlegrips-img'></img>
             </div>
-            <button className='btn btn-black last-item-btn'>Shop Now</button>
+            <Link href='https://danger-fit.myshopify.com/'><button className='btn btn-black last-item-btn'>Shop Now</button></Link>
 
 {/* 
             <h3 className='battlegrips-header'>Introducing Battle Grips by Danger Fit</h3>
@@ -70,7 +71,7 @@ const battlegrip = () => {
     <div className='last-item'>
     <MdVerified className='verified-icon' />
     <p className='index-about-p last-item-p'>Elevate your training, embrace the challenge, and conquer your goals with Battle Grips. Join the Danger Fit movement and experience fitness on your terms.</p>
-    <button className='btn btn-black last-item-btn'>Shop Now</button>
+    <Link href='https://danger-fit.myshopify.com/'><button className='btn btn-black last-item-btn'>Shop Now</button></Link>
 
     
     </div>

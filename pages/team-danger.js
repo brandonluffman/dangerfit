@@ -28,7 +28,7 @@ const teamDanger = () => {
               <h6 className='team-section-suberheader'>COO</h6>
 
               <h6 className='team-section-subheader'>Firefighter, US Army Infantryman, Vice President of Non Profit Veterans Group</h6>
-              <p className='team-section-p'>James Jardine is an US Army National Guard Soldier who has over a decade in the fire department. He’s committed to helping others and finds that his roll in Danger Fit allows him to do so.</p>
+              <p className='team-section-p'>James Jardine is an US Army National Guard Soldier who has over a decade in the fire department. He’s committed to helping others and finds that his role in Danger Fit allows him to do so.</p>
 
             </div>
             </div>

@@ -13,7 +13,7 @@ const affiliate = () => {
           <div className='affiliate-emoji'>&#129309;</div>
           {/* <div className='flexer'> */}
           <div className='flexer'>
-          <p className='affiliate-p'>Get ready to elevate your fitness journey with our exceptional gym clothing lineup. We are a dedicated community of individuals committed to self-improvement, pushing ourselves beyond limits to achieve greatness. Embracing sacrifice and relentless dedication, we forge ahead on the path to becoming the best versions of ourselves. Join us in our pursuit of excellence, as we break barriers and conquer new fitness heights. Together, let&apos;s unleash our full potential, fueled by the power of Danger Fit and the spirit of Team 1%.</p>
+          <p className='affiliate-p'>Get ready to elevate your fitness journey with our exceptional gym equipment lineup. We are a dedicated community of individuals committed to self-improvement, pushing ourselves beyond limits to achieve greatness. Embracing sacrifice and relentless dedication, we forge ahead on the path to becoming the best versions of ourselves. Join us in our pursuit of excellence, as we break barriers and conquer new fitness heights. Together, let&apos;s unleash our full potential, fueled by the power of Danger Fit and the spirit of Team 1%.</p>
                    <img src='/hall.png' className='affiliate-img'></img>
 
           </div>
