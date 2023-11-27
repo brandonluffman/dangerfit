@@ -51,6 +51,8 @@ padding:0rem 0.2rem;
     font-size:2rem;
     margin: 1rem 1rem; 
     cursor:pointer; 
+        width: 30px;
+    height: 30px;
 }
 
 .social-img {
