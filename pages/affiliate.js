@@ -3,10 +3,32 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { AiFillStar } from 'react-icons/ai'
 import AffiliateForm from '../components/AffiliateForm'
+import Head from 'next/head'
 
 const affiliate = () => {
   return (
     <>
+        <Head>
+          <title>Affiliate</title>
+          <meta name="description" content="Danger Fit: Unparalleled gym equipment."/>
+          <meta charSet="utf-8" />
+          <meta name="robots" content="index, follow" />
+          <meta name="viewport" content="width=device-width, initial-scale=1"/>
+          <link rel="icon" type="image/png" href="/favicon.png" alt="Favicon" />
+          <link rel="apple-touch-icon" href="/favicon.png" /> 
+          <link rel="canonical" href="https://dangerfit.com/affiliate"/>
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content="Danger Fit" />
+          <meta property="og:description" content="Danger Fit: Unparalleled gym equipment." />
+          <meta property="og:image" content="/favicon.png" />
+          <meta property="og:url" content="dangerfit.com" />
+          <meta property="og:site_name" content="Danger Fit" />
+          <meta name="twitter:title" content="Danger Fit" />
+          <meta name="twitter:description" content="Danger Fit: Unparalleled gym equipment." />
+          <meta name="twitter:image" content="/favicon.png" />
+          <meta name="twitter:site" content="@USERNAME" />
+          <meta name="twitter:creator" content="@USERNAME" />
+      </Head>
     <Navbar />
     <div className='affiliate-container'>
           <h1 className='affiliate-header green-font'>Team 1%</h1>

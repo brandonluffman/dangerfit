@@ -29,6 +29,27 @@ export default function Home() {
   const closePopup = () => setPopupOpen(false);
   return (
    <>
+        <Head>
+          <title>Danger Fit</title>
+          <meta name="description" content="Danger Fit: Unparalleled gym equipment."/>
+          <meta charSet="utf-8" />
+          <meta name="robots" content="index, follow" />
+          <meta name="viewport" content="width=device-width, initial-scale=1"/>
+          <link rel="icon" type="image/png" href="/favicon.png" alt="Favicon" />
+          <link rel="apple-touch-icon" href="/favicon.png" /> 
+          <link rel="canonical" href="https://dangerfit.com/"/>
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content="Danger Fit" />
+          <meta property="og:description" content="Danger Fit: Unparalleled gym equipment." />
+          <meta property="og:image" content="/favicon.png" />
+          <meta property="og:url" content="dangerfit.com" />
+          <meta property="og:site_name" content="Danger Fit" />
+          <meta name="twitter:title" content="Danger Fit" />
+          <meta name="twitter:description" content="Danger Fit: Unparalleled gym equipment." />
+          <meta name="twitter:image" content="/favicon.png" />
+          <meta name="twitter:site" content="@USERNAME" />
+          <meta name="twitter:creator" content="@USERNAME" />
+      </Head>
     {maintenance ? (
       <div className='black-splash'>      
       <div className='index-stars index-splash'>

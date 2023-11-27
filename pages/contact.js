@@ -14,22 +14,22 @@ const Contact = () => {
   return (
     <div>
           <Head>
-          <title>Contact Me</title>
-          <meta name="description" content="CLEO Painting: Unparalleled Exterior and Interior Painting expertise serving all of Fairfield County and surrounding areas."/>
+          <title>Contact Us</title>
+          <meta name="description" content="Danger Fit: Unparalleled gym equipment."/>
           <meta charSet="utf-8" />
           <meta name="robots" content="index, follow" />
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
           <link rel="icon" type="image/png" href="/favicon.png" alt="Favicon" />
           <link rel="apple-touch-icon" href="/favicon.png" /> 
-          <link rel="canonical" href="https://cleoexteriors.com/contact"/>
+          <link rel="canonical" href="https://dangerfit.com/contact"/>
           <meta property="og:type" content="article" />
-          <meta property="og:title" content="CLEO Painting" />
-          <meta property="og:description" content="CLEO Painting: Unparalleled Exterior and Interior Painting expertise serving all of Fairfield County and surrounding areas." />
+          <meta property="og:title" content="Danger Fit" />
+          <meta property="og:description" content="Danger Fit: Unparalleled gym equipment." />
           <meta property="og:image" content="/favicon.png" />
-          <meta property="og:url" content="cleoexteriors.com" />
-          <meta property="og:site_name" content="CLEO Painting" />
-          <meta name="twitter:title" content="CLEO Painting" />
-          <meta name="twitter:description" content="CLEO Painting: Unparalleled Exterior and Interior Painting expertise serving all of Fairfield County and surrounding areas." />
+          <meta property="og:url" content="dangerfit.com" />
+          <meta property="og:site_name" content="Danger Fit" />
+          <meta name="twitter:title" content="Danger Fit" />
+          <meta name="twitter:description" content="Danger Fit: Unparalleled gym equipment." />
           <meta name="twitter:image" content="/favicon.png" />
           <meta name="twitter:site" content="@USERNAME" />
           <meta name="twitter:creator" content="@USERNAME" />
