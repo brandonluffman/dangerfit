@@ -11,7 +11,7 @@ const battlegrip = () => {
   return (
     <>
         <Head>
-          <title>Team Danger</title>
+          <title>BattleGrips</title>
           <meta name="description" content="Danger Fit: Unparalleled gym equipment."/>
           <meta charSet="utf-8" />
           <meta name="robots" content="index, follow" />
