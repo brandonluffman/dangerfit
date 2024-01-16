@@ -64,6 +64,7 @@ const Navbar = () => {
         <div className='hamburger-btn' onClick={toggleMenu}>
                 <FiMenu className='hamburger-menu-icon' />
               </div>
+              
 
               {/* Mobile navigation menu */}
           
