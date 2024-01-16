@@ -55,7 +55,7 @@ const Navbar = () => {
             {/* <Link href='/apparel'><li className='nav-link'>Apparel</li></Link> */}
             <Link href='/team-danger'><li className='nav-link'>Team Danger</li></Link>
             {/* <Link href='/affiliate'><li className='nav-link'>Affiliate Program</li></Link> */}
-            <Link href='/battlegrip'><li className='nav-link'>Shop</li></Link>
+            <Link href='/battlebar'><li className='nav-link'>Shop</li></Link>
             <Link href='https://danger-fit.myshopify.com/'><li className='nav-link'>Apparel</li></Link>
 
             {/* <li className='nav-link shopping-nav-link'><AiFillShopping className='shopping-cart'/> <div className='cart-qty'>0</div></li> */}
