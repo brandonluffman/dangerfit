@@ -53,8 +53,8 @@ const Footer = () => {
                             <p className='footer-links-header'>Company</p>
                             <Link href='/team-danger'><div className='footer-link'>About</div></Link>
                             <Link href='/contact'><div className='footer-link'>Contact</div></Link>
-                            <Link href='/affiliate'><p className='footer-link'>Affiliate</p></Link>
-                            <Link href='/battlegrip'><p className='footer-link'>Battlegrip</p></Link>
+                            {/* <Link href='/affiliate'><p className='footer-link'>Affiliate</p></Link> */}
+                            <Link href='/battlebar'><p className='footer-link'>Battle Bar</p></Link>
 
                             <Link href='https://danger-fit.myshopify.com/'><p className='footer-link'>Shop</p></Link>
                           </div>
